@@ -1,1 +1,25 @@
 @import "tailwindcss";
+
+:root {
+  --font-newsreader: "Newsreader", serif;
+  --font-hanken: "Hanken Grotesk", sans-serif;
+}
+
+@theme {
+  --font-newsreader: var(--font-newsreader);
+  --font-hanken: var(--font-hanken);
+
+  --color-primary: #3730A3;
+  --color-secondary: #1E1B4B;
+  --color-tertiary: #D97706;
+  --color-neutral: #0F172A;
+
+  --color-surface: #faf8ff;
+  --color-surface-dim: #d2d9f4;
+
+  --color-bg: #FAFAFC;
+
+  --color-on-surface: #131b2e;
+
+  --color-border: #E2E8F0;
+}
